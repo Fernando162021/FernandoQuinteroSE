@@ -1,4 +1,4 @@
-package com.mayab.software;
+package com.anahuac.software;
 
 /**
  * Hello world!
