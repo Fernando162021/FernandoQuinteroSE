@@ -18,9 +18,5 @@ public class Controller {
 		controller.takeAttendance("Alumno1", true, "");
 		controller.takeAttendance("Alumno2", false, "");
 		controller.takeAttendance("Alumno3", true, "Enfermedad");
-		
-		 Logger logger1 = Logger.getInstance();
-	     Logger logger2 = Logger.getInstance();
-	     System.out.println(logger1 == logger2); // should be true
 	}
 }

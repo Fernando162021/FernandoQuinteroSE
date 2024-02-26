@@ -10,6 +10,6 @@ public class AlertSystem {
         alert.addDelivery(new EmailDelivery("example@example.com"));
         alert.addDelivery(new WhatsAppDelivery("+1234567890"));
 
-        item.setCurrentPrice(300);
+        item.setCurrentPrice(400);
 	}
 }

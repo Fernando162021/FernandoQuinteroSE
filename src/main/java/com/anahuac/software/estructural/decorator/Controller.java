@@ -6,7 +6,6 @@ public class Controller {
         packageItem = new Internet(packageItem);
         packageItem = new Netflix(packageItem);
         packageItem = new Disney(packageItem);
-        System.out.println("Total cost of the package: $" + packageItem.cost());
-        
+        System.out.println("Total cost of the package: $" + packageItem.cost());        
 	}
 }
