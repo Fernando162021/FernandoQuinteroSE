@@ -4,7 +4,7 @@ public class Controller {
 	public static void main(String[] args) {
 		int[] arr = {5, 2, 7, 1, 9};
 		
-		SortingContext sortingContext = new SortingContext();
+		SortingSelector sortingContext = new SortingSelector();
 		
 		BubbleSort bubbleSort = new BubbleSort();
         QuickSort quickSort = new QuickSort();

@@ -1,6 +1,6 @@
 package com.anahuac.software.comportamiento.strategy;
 
-public class SortingContext {
+public class SortingSelector {
 	private SortingAlgorithm sortingAlgorithm;
 
     public void setSortingAlgorithm(SortingAlgorithm sortingAlgorithm) {
