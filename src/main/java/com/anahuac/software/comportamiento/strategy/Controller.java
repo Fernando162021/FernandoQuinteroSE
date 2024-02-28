@@ -4,27 +4,27 @@ public class Controller {
 	public static void main(String[] args) {
 		int[] arr = {5, 2, 7, 1, 9};
 		
-		SortingSelector sortingContext = new SortingSelector();
+		SortingSelector sortingSelector = new SortingSelector();
 		
 		BubbleSort bubbleSort = new BubbleSort();
         QuickSort quickSort = new QuickSort();
         MergeSort mergeSort = new MergeSort();
         InsertionSort insertionSort = new InsertionSort();
         
-        sortingContext.setSortingAlgorithm(bubbleSort);
-        sortingContext.executeSort(arr.clone());
+        sortingSelector.setSortingAlgorithm(bubbleSort);
+        sortingSelector.executeSort(arr.clone());
         System.out.println();
         
-        sortingContext.setSortingAlgorithm(quickSort);
-        sortingContext.executeSort(arr.clone());
+        sortingSelector.setSortingAlgorithm(quickSort);
+        sortingSelector.executeSort(arr.clone());
         System.out.println();
         
-        sortingContext.setSortingAlgorithm(mergeSort);
-        sortingContext.executeSort(arr.clone());
+        sortingSelector.setSortingAlgorithm(mergeSort);
+        sortingSelector.executeSort(arr.clone());
         System.out.println();
 
-        sortingContext.setSortingAlgorithm(insertionSort);
-        sortingContext.executeSort(arr.clone());
+        sortingSelector.setSortingAlgorithm(insertionSort);
+        sortingSelector.executeSort(arr.clone());
         System.out.println();
 	}
 }
