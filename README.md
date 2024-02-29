@@ -14,4 +14,4 @@
 
 ![Template](https://github.com/Fernando162021/FernandoQuinteroSE/assets/80537937/bcf76d65-f7de-4796-8ffb-24a8c44dc3f0)
 
-![Parcial1](https://github.com/Fernando162021/FernandoQuinteroSE/assets/80537937/74d9f45d-3e9a-449e-b4be-ad988b5d4421)
+![Parcial1](https://github.com/Fernando162021/FernandoQuinteroSE/assets/80537937/6f8e880c-b6e9-43fe-ad79-d54a2f172e92)
