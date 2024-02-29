@@ -16,8 +16,8 @@ public class Controller {
         Database databaseC = new DatabaseC();
         databaseC.setQueryData(queryData);
         
-        databaseA.peristData();
-        databaseB.peristData();
-        databaseC.peristData();
+        databaseA.dataPersistence();
+        databaseB.dataPersistence();
+        databaseC.dataPersistence();
 	}
 }

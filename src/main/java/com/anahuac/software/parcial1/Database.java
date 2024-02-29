@@ -4,7 +4,7 @@ public abstract class Database {
 	
 	protected QueryData queryData;
 	
-	public final void peristData() {
+	public final void dataPersistence() {
 		openConnection();
 		String statement = createStatement();
 		executeStatement(statement);
