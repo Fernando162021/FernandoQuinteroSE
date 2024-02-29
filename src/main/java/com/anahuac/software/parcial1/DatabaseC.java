@@ -1,4 +1,4 @@
-package com.anahuac.software.partialexam.first;
+package com.anahuac.software.parcial1;
 
 public class DatabaseC extends Database {
 
